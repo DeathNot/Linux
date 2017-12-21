@@ -21,3 +21,7 @@ fork函数
 #include <unistd.h>
 pid_t fork(void); 返回值：子进程返回０，父进程返回子进程ＩＤ，出错返回－１
 ```
+vfork函数
+```c
+
+```

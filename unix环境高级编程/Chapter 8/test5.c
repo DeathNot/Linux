@@ -4,7 +4,7 @@
 
 static void charatatime(char *);
 
-int main(int argc, char **argv) {
+int main(int argc, char *argv[]) {
   pid_t   pid;
 
   if ((pid = fork()) < 0) {

@@ -5,7 +5,7 @@
 
 int globvar = 6;
 
-int main(int argc, char **argv) {
+int main(int argc, char *argv[]) {
   int   var;
   pid_t pid;
 
